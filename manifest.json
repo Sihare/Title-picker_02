@@ -1,0 +1,22 @@
+
+{
+    "name": "Title picker",
+    "description": "Gives Title of any webpage",
+    "version": "1.0",
+    "manifest_version": 3,
+    
+    "permissions": [
+         "tabs",
+         "activeTab"
+          
+    ],
+     
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "picker_16.png",
+        "32": "picker_32.png",
+        "48": "picker_48.png"
+    }
+}
